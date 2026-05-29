@@ -3,3 +3,5 @@ __pycache__/
 .pytest_cache/
 reports/
 *.tmp
+debug_checkout.py
+*.log
