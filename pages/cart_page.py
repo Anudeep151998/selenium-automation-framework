@@ -59,3 +59,6 @@ class CartPage:
 
     def is_cart_empty(self):
         return self.get_cart_item_count() == 0
+    
+# Page Object Model - Cart Page
+# Contains all locators and actions for saucedemo.com cart page
