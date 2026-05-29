@@ -72,3 +72,6 @@ class ProductsPage:
     def logout(self):
         self.driver.find_element(*self.BURGER_MENU).click()
         self.wait.until(EC.element_to_be_clickable(self.LOGOUT_LINK)).click()
+
+# Page Object Model - Products Page
+# Contains all locators and actions for saucedemo.com inventory page
