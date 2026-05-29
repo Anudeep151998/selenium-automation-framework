@@ -36,3 +36,6 @@ def driver():
     yield driver
 
     driver.quit()
+
+# Selenium Automation Framework - Browser Configuration
+# Author: Anudeep Burra | Python + Selenium + pytest
