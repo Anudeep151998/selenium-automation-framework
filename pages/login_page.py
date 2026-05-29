@@ -58,3 +58,7 @@ class LoginPage:
 
     def close_error(self):
         self.driver.find_element(*self.ERROR_CLOSE_BTN).click()
+
+
+# Page Object Model - Login Page
+# Contains all locators and actions for saucedemo.com login page
