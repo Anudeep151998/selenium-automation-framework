@@ -88,3 +88,6 @@ class CheckoutPage:
 
     def click_back_to_products(self):
         self.driver.find_element(*self.BACK_HOME_BTN).click()
+
+# Page Object Model - Checkout Page
+# Contains all locators and actions for saucedemo.com checkout pages
